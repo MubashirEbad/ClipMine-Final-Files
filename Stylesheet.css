@@ -1,0 +1,187 @@
+
+.flex-row{
+	display:flex;
+	flex-direction: row;
+    justify-content: flex-start;
+}
+.flex-column{
+	display:flex;
+	flex-direction:column;
+}
+.alignment{
+	text-align:center;
+	justify-content: center;
+}
+.heading{
+	font-size:50px;
+}
+.grid-columns{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 5px;
+}
+.search-icon{
+	height: 16px;
+	width: 16px;
+}
+.blog{
+	margin-right: 20px;
+}
+.logo{
+	 height:50px;
+	 width:226px;
+}
+.right-header{
+    display: flex;
+    justify-content: end;
+	margin: 0 3 0 auto;
+}
+.big-image{
+	background-image: url("Images/top-section_2180x750.jpg");
+	width:100%;
+	height:80%;
+	color:white;
+}
+.big-image-text{
+	font-size: 20px;
+}
+.big-image-button{
+	height:50px;
+	width:200px;
+	background-color:#39F;
+	font-size:16px;
+	border:none;
+	color:white;
+}
+.help-discover-heading{
+	font-size: 24px;
+	color:#666;
+}
+.discover-grid-image{
+	height: 187px;
+	width: 280px;
+}
+.features-text{
+	margin-left: 15%;
+	width: 70%;
+	color:#333;
+	font-size:20px;
+}
+.features-grid-image{
+	height: 120px;
+	width: 300px;
+}
+.features-headings{
+	font-size:20px;
+}
+.features-text-inside{
+	font-size:16px;
+}
+.benefits-grid-main{
+	display: grid;
+	grid-template-columns: 20% 40%;
+	grid-template-rows: 60% 60% 60%;
+	grid-row-gap: 20px;
+}
+.benefits-image{
+	height: 128px;
+	width: 128px;
+}
+.benefits-headings{
+	font-size: 24px;
+}
+.collections-heading{
+	margin-top: 5%;
+}
+.collections-image
+{
+	width:35%;
+	height:30%;
+}
+.collections-text
+{
+	color:white;
+	font-size:40px;
+}
+.collections-item1{
+	background-image: url("Images/collections/collection-ml_461x184.png");
+}
+.collections-item2{
+	margin-left: 10%;
+	background-image: url("Images/collections/collection-startup_460x184.png");;
+}
+.collections-ending-text{
+	margin-top:5%;
+	color:#666;
+}
+.clipmine-users{
+	background-color:#EFEFEF;
+	margin-top:5%;
+	width: 100%;
+	height: 90%;
+}
+.clipmine-users-heading{
+	margin-top:10%;
+	font-size: 30px;
+}
+.clipmine-users-grid{
+	display: grid;
+	grid-template-columns: 30% 25% 25%;
+	grid-template-rows: 25% 25%;
+	grid-row-gap: 50px;
+	grid-column-gap: 2%;
+}
+.clipmine-user-image{
+	height: 94px;
+	width: 215px;
+}
+.clipmine-users-ending-text{
+	font-size: 16px;
+}
+.tag-option-heading{
+	margin-top: 10%;
+	font-size:36px;
+}
+.tag-textbox{
+	height: 7%;
+	width: 30%;
+	border:inset;
+}
+.tag-button{
+	height: 7%;
+	width: 8%;
+	background-color:#06F;
+	border:none;
+	color: #EFEFEF;
+	font-size:18px;
+}
+.supported-platforms{
+	margin-top:5%;
+	background-color: #EFEFEF;
+	height: 60%;
+}
+.supported-platforms-heading{
+	margin-top:8%;
+	font-size: 36px;
+}
+.platforms{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	grid-columns-gap: 2%;
+}
+.platform-image{
+	height: 50px;
+	width: 115px;
+}
+.footer1{
+	background-color:#333;
+	height:6%;
+}
+.footer1-components{
+	color:#39F;
+}
+.footer2{
+	background-color:black;
+	color:#766D34;
+	height:6%;
+}
